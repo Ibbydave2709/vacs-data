@@ -1678,6 +1678,7 @@ controlled_by = ["EGSU_I_TWR"]
 
 [[stations]]
 id = "EGTC_A_APP"
+parent_id = "LTC_MW_CTR"
 controlled_by = ["EGTC_A_APP"]
 
 [[stations]]
@@ -1696,7 +1697,7 @@ controlled_by = ["EGTK_TWR"]
 
 [[stations]]
 id = "EGTK_APP"
-parent_id = "LTC_MW_CTR"
+parent_id = "LTC_MC_CTR"
 controlled_by = ["EGTK_APP"]
 
 [[stations]]
@@ -1712,7 +1713,7 @@ controlled_by = ["EGUB_TWR"]
 [[stations]]
 id = "EGUB_APP"
 parent_id = "STHRN_APP"
-controlled_by = ["EGUB_APP", "EGUB_P_APP"]
+controlled_by = ["EGUB_APP", "EGUB_P_APP", "STHRN_APP"]
 
 [[stations]]
 id = "EGUB_P_APP"
@@ -1736,7 +1737,7 @@ controlled_by = ["EGUW_TWR"]
 
 [[stations]]
 id = "EGUW_APP"
-parent_id = "EGVV_W_CTR"
+parent_id = "EGVV_D_CTR"
 controlled_by = ["EGUW_APP", "EGUW_P_APP"]
 
 [[stations]]
@@ -1756,7 +1757,7 @@ controlled_by = ["EGVN_TWR"]
 
 [[stations]]
 id = "EGVN_APP"
-parent_id = "EGVV_W_CTR"
+parent_id = "EGVV_C_CTR"
 controlled_by = [
   "EGVN_APP",
   "EGVN_F_APP",
@@ -1793,7 +1794,7 @@ controlled_by = ["EGVO_TWR"]
 [[stations]]
 id = "EGVO_APP"
 parent_id = "STHRN_APP"
-controlled_by = ["EGVO_APP", "EGVO_P_APP"]
+controlled_by = ["EGVO_APP", "EGVO_P_APP", "STHRN_APP"]
 
 [[stations]]
 id = "EGVO_P_APP"
@@ -1807,7 +1808,7 @@ controlled_by = ["EGVP_TWR"]
 
 [[stations]]
 id = "EGVP_APP"
-parent_id = "EGVV_W_CTR"
+parent_id = "EGVV_A_CTR"
 controlled_by = ["EGVP_APP"]
 
 [[stations]]
@@ -1836,9 +1837,44 @@ parent_id = "EGWU_F_APP"
 controlled_by = ["EGWU_P_APP"]
 
 [[stations]]
+id = "EGXC_APP"
+parent_id = "EGVV_E_CTR"
+controlled_by = ["EGXC_APP", "EGXC_P_APP"]
+
+[[stations]]
+id = "EGXT_GND"
+parent_id = "EGXT_TWR"
+controlled_by = ["EGXT_GND"]
+
+[[stations]]
+id = "EGXT_TWR"
+parent_id = "EGXT_APP"
+controlled_by = ["EGXT_TWR"]
+
+[[stations]]
 id = "EGXT_APP"
-parent_id = "EGVV_C_CTR"
+parent_id = "EGVV_E_CTR"
 controlled_by = ["EGXT_APP", "EGXT_P_APP"]
+
+[[stations]]
+id = "EGXT_P_APP"
+parent_id = "EGXT_APP"
+controlled_by = ["EGXT_P_APP"]
+
+[[stations]]
+id = "EGXW_APP"
+parent_id = "EGVV_E_CTR"
+controlled_by = ["EGXW_APP", "EGXW_L_APP", "EGXW_P_APP"]
+
+[[stations]]
+id = "EGYD_APP"
+parent_id = "EGVV_E_CTR"
+controlled_by = ["EGYD_APP", "EGYD_P_APP"]
+
+[[stations]]
+id = "EGYM_APP"
+parent_id = "EGVV_E_CTR"
+controlled_by = ["EGYM_APP", "EGYM_P_APP"]
 
 [[stations]]
 id = "EGYP_APP"
